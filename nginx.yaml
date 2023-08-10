@@ -1,0 +1,9 @@
+# nginx.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s-pod
+spec:
+  containers:
+    - name: hello-container
+      image: chenjinghao/hellok8s:v1
